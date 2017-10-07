@@ -1,0 +1,56 @@
+.about-section {
+    width: 870px;
+    float: left;
+}
+
+.about__item {
+    position: relative;
+    margin-top: 30px;
+}
+
+.about__item-image {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+	border-radius: 50%;
+    display: inline-block;
+    margin-right: 19px;
+}
+
+.about__item-data {
+    font-size: 14px;
+    color: #656464;
+    line-height: 21px;
+}
+
+.about__item-name {
+    font-size: 18px;
+    color: #221f1f;
+    font-weight: bold;
+    line-height: 21px;    
+}
+
+.about__item-txt {
+    display: inline-block;
+    width: 685px;
+    vertical-align: top;
+
+    font-size: 18px;
+    color: #221f1f;
+    line-height: 30px;    
+
+
+  
+}
+
+.about__item {
+    border-bottom: 2px solid #f5f5f5;
+}
+
+.about__item:last-child {
+    border-bottom: none;
+}

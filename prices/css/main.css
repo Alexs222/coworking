@@ -1,0 +1,44 @@
+
+@import url('./layout/base.css');
+@import url('./sections/header.css');
+@import url('./sections/maincontents.css');
+@import url('./sections/sidebar.css');
+@import url('./sections/tarif.css');
+@import url('./sections/footer.css');
+@import url('./sections/about.css');
+@import url('./sections/form.css');
+@import url('./sections/pagination.css');
+@import url('./sections/workad.css');
+@import url('./sections/intro.css');
+
+
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts_1/GothamPro-Bold');
+	src: url('../fonts_1/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts_1/GothamPro-Light.woff') format('woff'),
+		url('../fonts_1/GothamPro-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts_1/GothamPro-LightItalic.eot');
+	src: url('../fonts_1/GothamPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts_1/GothamPro-LightItalic.woff') format('woff'),
+		url('../fonts_1/GothamPro-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gotham Pro';
+	src: url('../fonts_1/GothamPro-Bold.eot');
+	src: url('../fonts_1/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts_1/GothamPro-Bold.woff') format('woff'),
+		url('../fonts_1/GothamPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}

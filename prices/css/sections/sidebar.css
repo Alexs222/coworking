@@ -1,0 +1,97 @@
+.sidebar {
+	width: 110px;
+	float: left;
+	margin-right: 67px;
+}
+
+.navigation__item {
+	margin-bottom: 27px;
+}
+
+.navigation__link {
+	text-decoration: none;
+}
+.navigation__link:hover .navigation__title {
+	color: #221f1f;
+}
+.navigation__link:hover .navigation__icon_main {
+    background: url(../../../img/menu/css_sprites.png) -92px -10px;	
+}
+.navigation__link:hover .navigation__icon_tarif {
+    background: url(../../../img/menu/css_sprites.png) -10px -49px;	
+}
+.navigation__link:hover .navigation__icon_revievs {
+	background: url(../../../img/menu/css_sprites.png) -10px -10px;
+	
+}
+/* .navigation__link:hover .navigation__icon {
+	background-image: url(../img/menu/wallet_icon_red.png);
+} */
+
+.navigation__icon {
+	width: 21px;
+	height: 19px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 18px;
+}
+
+.navigation__title {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	color: rgba(236, 30, 121, 0.8);
+	display: inline-block;
+    vertical-align: middle;
+    max-width: 100px;
+}
+
+.navigation__item_active .navigation__title {
+	color: #221f1f;
+}
+
+.navigation__item_active .navigation__icon_main {
+    background: url(../../../img/menu/css_sprites.png) -92px -10px;	
+}
+.navigation__item_active .navigation__icon_tarif {
+    background: url(../../../img/menu/css_sprites.png) -10px -49px;
+}
+.navigation__item_active .navigation__icon_revievs {
+	background: url(../../../img/menu/css_sprites.png) -10px -10px;
+}
+
+.navigation__icon_main {
+	background: url(../../../img/menu/css_sprites.png) -92px -45px no-repeat;
+}
+.navigation__icon_tarif {
+	background: url(../../../img/menu/css_sprites.png) -49px -49px no-repeat;	
+}
+.navigation__icon_revievs {
+	background: url(../../../img/menu/css_sprites.png) -51px -10px no-repeat;	
+}
+
+
+
+
+
+
+/* .navigation__item_active .navigation__icon_main {
+    background-image: url(../../../img/menu/main_icon_black.png);	
+}
+.navigation__item_active .navigation__icon_tarif {
+    background-image: url(../../../img/menu/wallet_icon.png);
+}
+.navigation__item_active .navigation__icon_revievs {
+	background-image: url(../../../img/menu/feed_icon_black.png);
+}
+
+.navigation__icon_main {
+	background: url(../../../img/menu/main_icon.png) center center no-repeat;
+}
+.navigation__icon_tarif {
+	background: url(../../../img/menu/wallet_icon_red.png) center center no-repeat;	
+}
+.navigation__icon_revievs {
+	background: url(../../../img/menu/feed_icon.png) center center no-repeat;	
+} */
+

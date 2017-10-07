@@ -1,0 +1,98 @@
+.footer__col {
+	float: left;
+	width: 33.3%;
+	margin-top: 10px;
+}
+
+.footer__text {
+	width: 264px;
+	height: 48px;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: 300;
+	line-height: 18px;
+}
+.footer__ls {
+	color: #ffffff;	
+	font-weight: bold;
+}
+.footer__name {
+	font-weight: bold;
+}
+
+.footer__pos-logo {
+	display: inline-block;
+	text-align: center;
+}
+
+.socials {
+	text-align: right;
+	
+}
+
+.socials__title {
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;	
+	margin: 6px 0 9px 0;
+}
+
+.socials__list {
+	margin-right: 30px;
+}
+
+.socials__item {
+	display: inline-block;
+	/* background-color: #d4d4d8;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	text-align: center; */
+	margin-left: 5px;
+	
+}
+
+.socials__link {
+	width: 20px;
+	height: 20px;
+	display: block;
+	background: url(../../img/social_networks/social_sprite.png) 0 0 no-repeat;
+}
+
+.socials__vk {
+	background-position: 0 0;
+}
+.socials__vk:hover {
+	background-position: 0 bottom;
+}
+
+.socials__fb {
+	background-position: -100px 0;	
+}
+.socials__fb:hover {
+	background-position: -100px bottom;
+}
+
+.socials__google {
+	background-position: -200px 0;	
+}
+.socials__google:hover {
+	background-position: -200px bottom;
+}
+
+.socials__tw {
+	background-position: -300px 0;	
+}
+.socials__tw:hover {
+	background-position: -300px bottom;
+}
+
+.socials__mail {
+	background-position: -400px 0;	
+}
+.socials__mail:hover {
+	background-position: -400px bottom;
+}
+
+
+
